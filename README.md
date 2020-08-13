@@ -11,6 +11,15 @@
 
 ---
 
+## Usage
+
+```bash
+# Download and run installer script
+bash ./run.sh
+```
+
+---
+
 ## Project Structure
 
 ```md
