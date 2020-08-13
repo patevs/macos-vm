@@ -1,0 +1,27 @@
+{
+  "name": "semantic-template",
+  "version": "1.1.0",
+  "description": "A Template repository for semantically versioned projects",
+  "author": "PatEvs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patevs/semantic-template.git"
+  },
+  "engines": {
+    "node": ">=10.21.0",
+    "npm": ">=6.8.0",
+    "git": ">=2.13.2"
+  },
+  "scripts": {
+    "release": "np",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "husky": "^4.2.5",
+    "np": "^6.4.0"
+  }
+}
