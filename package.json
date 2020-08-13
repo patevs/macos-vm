@@ -1,12 +1,12 @@
 {
-  "name": "semantic-template",
-  "version": "1.1.0",
-  "description": "A Template repository for semantically versioned projects",
+  "name": "macos-vm",
+  "version": "0.0.0",
+  "description": "Instructions and script to help you create a VirtualBox VM running MacOS",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patevs/semantic-template.git"
+    "url": "git+https://github.com/patevs/macos-vm.git"
   },
   "engines": {
     "node": ">=10.21.0",
