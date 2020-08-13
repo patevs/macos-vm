@@ -30,6 +30,12 @@ All the dependencies should be available through a package manager:
 bash ./run.sh
 ```
 
+If running on an AMD based system, execute the following command from an elevated prompt:
+
+```powershell
+VBoxManage modifyvm "macOS" --cpu-profile "Intel Xeon X5482 3.20GHz"
+```
+
 ---
 
 ## Project Structure
