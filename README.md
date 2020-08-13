@@ -1,15 +1,13 @@
-# Semantic Template
+# MacOS VM
 
-> A Template repository for semantically versioned projects.
+> Instructions and script to help you create a VirtualBox VM running MacOS.
 
 ---
 
 ## Links & Resources
 
-* [`commitlint`](https://github.com/conventional-changelog/commitlint) Lint commit messages.
-  * [`commitlint-config-gitmoji`](https://github.com/arvinxx/commitlint-config-gitmoji) Commitlint config enforcing gitmoji rules.
-* [`husky`](https://github.com/typicode/husky) Git hooks made easy.
-* [`np`](https://github.com/sindresorhus/np) A better npm publish.
+* [`macos-virtualbox`](https://github.com/myspaghetti/macos-virtualbox) Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS.
+* [`macos-virtualbox-vm`](https://github.com/geerlingguy/macos-virtualbox-vm) Instructions and script to help you create a VirtualBox VM running macOS.
 
 ---
 
