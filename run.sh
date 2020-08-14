@@ -18,11 +18,15 @@ fi
 
 # --------------------------------------------------------------------------------------------------- #
 
+# Create and move to macos-vm directory within user home
+mkdir ~/macos-vm
+cd ~/macos-vm
+
 # Download installer script
 wget https://raw.githubusercontent.com/myspaghetti/macos-virtualbox/master/macos-guest-virtualbox.sh
 
 # Run installer script
-bash ./macos-guest-virtualbos.sh
+bash ./macos-guest-virtualbox.sh
 
 # --------------------------------------------------------------------------------------------------- #
 
