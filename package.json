@@ -26,5 +26,10 @@
   },
   "commitlint": {
     "extends": ["./node_modules/commitlint-config-gitmoji"]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
