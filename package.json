@@ -23,5 +23,8 @@
     "commitlint-config-gitmoji": "^1.0.1",
     "husky": "^4.2.5",
     "np": "^6.5.0"
+  },
+  "commitlint": {
+    "extends": ["./node_modules/commitlint-config-gitmoji"]
   }
 }
