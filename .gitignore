@@ -2,6 +2,8 @@
 # .gitignore #
 # ---------- #
 
+### NodeJS ###
+
 # Logs
 logs
 *.log
