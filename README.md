@@ -8,10 +8,10 @@
 
 * [`macos-virtualbox`](https://github.com/myspaghetti/macos-virtualbox) Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS.
 * [`macos-virtualbox-vm`](https://github.com/geerlingguy/macos-virtualbox-vm) Instructions and script to help you create a VirtualBox VM running macOS.
+* [`runMacOSinVirtualBox`](https://github.com/AlexanderWillner/runMacOSinVirtualBox) Run macOS 10.16 Big Sur (and other versions) in VirtualBox on macOS.
 
 [](.)
 
-* [`runMacOSinVirtualBox`](https://github.com/AlexanderWillner/runMacOSinVirtualBox) Run macOS 10.16 Big Sur (and other versions) in VirtualBox on macOS.
 * [`OSX-KVM`](https://github.com/kholia/OSX-KVM) Run macOS on QEMU/KVM.
 * [`macOS-Simple-KVM`](https://github.com/foxlet/macOS-Simple-KVM) Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 
@@ -48,15 +48,13 @@ VBoxManage modifyvm "macOS" --cpu-profile "Intel Xeon X5482 3.20GHz"
 
 ```md
 .
-├── .commitlintrc.json
-├── .editorconfig
-├── .gitignore
-├── .huskyrc
-├── .np-config.json
-├── LICENSE
-├── package.json
-├── README.md
-└── run.sh
+├── .editorconfig    # Editor configuration
+├── .gitignore       # Git ignore configuration
+├── .np-config.json  # NPM publish (np) configuration
+├── LICENSE          # Project license
+├── package.json     # NPM package configuration
+├── README.md        # Project README
+└── run.sh           # Run script
 ```
 
 ---
