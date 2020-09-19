@@ -57,12 +57,25 @@ typesync \
 react-native-cli \
 pure-prompt
 
-# Ruby
+# Rbenv
 brew install rbenv
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 # Verify rbenv install
-curl -fsSL https://
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+
+# Ruby
+rbenv install 2.7.1
+rbenv rehash
+rbenv global 2.7.1 system
+
+# Gems
+sudo gem update --system
+sudo gem update
+
+sudo gem install \
+neovim \
+cocoapods
 
 # Wget
 brew install wget
