@@ -23,9 +23,15 @@ brew cask install iterm2
 # Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Zsh syntax highlighting
+brew install zsh-syntax-highlighting
+
 # NodeJS
 # brew install node  # Latest
 brew install node@12 # LTS
+
+# Add node to path
+echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.zshrc
 
 # TODO: Ensure node installed successfully
 
@@ -50,6 +56,13 @@ emus \
 typesync \
 react-native-cli \
 pure-prompt
+
+# Ruby
+brew install rbenv
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+
+# Verify rbenv install
+curl -fsSL https://
 
 # Wget
 brew install wget
