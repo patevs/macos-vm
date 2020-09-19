@@ -13,6 +13,13 @@ echo '' # new line
 
 # TODO: Ensure brew install successfully
 
+# Hack-NF
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+
+# Wget
+brew install wget
+
 # iTerm2
 brew cask install iterm2
 
@@ -45,6 +52,20 @@ react-native-cli
 
 # Yarn
 brew install yarn
+
+# LSD
+brew install lsd
+
+# Bat
+brew install bat
+
+# Neovim
+brew install neovim
+
+# Watchman
+brew install watchman
+
+
 
 # --------------------------------------------------------------------------------------------------- #
 
