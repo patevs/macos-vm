@@ -101,8 +101,6 @@ brew cask install visual-studio-code
 # Watchman
 brew install watchman
 
-
-
 # --------------------------------------------------------------------------------------------------- #
 
 # EOF #
