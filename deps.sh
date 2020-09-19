@@ -36,7 +36,7 @@ echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.zshrc
 # TODO: Ensure node installed successfully
 
 # Update NPM
-npm install --global npm
+# npm install --global npm
 
 # NPM Global Packages
 npm install --global \
