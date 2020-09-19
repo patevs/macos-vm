@@ -22,7 +22,7 @@ brew install node@12 # LTS
 
 # TODO: Ensure node installed successfully
 
-# Updated NPM
+# Update NPM
 npm install --global npm
 
 # NPM Global Packages
@@ -42,6 +42,9 @@ open-cli \
 emus \
 typesync \
 react-native-cli
+
+# Yarn
+brew install yarn
 
 # --------------------------------------------------------------------------------------------------- #
 
