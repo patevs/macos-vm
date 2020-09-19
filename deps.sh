@@ -70,7 +70,7 @@ rbenv install 2.7.1
 rbenv rehash
 rbenv global 2.7.1 system
 
-# Gems
+# Ruby Gems
 sudo gem update --system
 sudo gem update
 
