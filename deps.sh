@@ -50,6 +50,9 @@ emus \
 typesync \
 react-native-cli
 
+# Hub
+brew install hub
+
 # Yarn
 brew install yarn
 
@@ -61,6 +64,9 @@ brew install bat
 
 # Neovim
 brew install neovim
+
+# VS Code
+brew cask install visual-studio-code
 
 # Watchman
 brew install watchman
