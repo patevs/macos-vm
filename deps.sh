@@ -17,11 +17,11 @@ echo '' # new line
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 
-# Wget
-brew install wget
-
 # iTerm2
 brew cask install iterm2
+
+# Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # NodeJS
 # brew install node  # Latest
@@ -48,7 +48,11 @@ neovim \
 open-cli \
 emus \
 typesync \
-react-native-cli
+react-native-cli \
+pure-prompt
+
+# Wget
+brew install wget
 
 # Hub
 brew install hub
