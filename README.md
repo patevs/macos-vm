@@ -20,6 +20,10 @@
 
 [](.)
 
+* [`fastmac`](https://github.com/fastai/fastmac) Get a MacOS or Linux shell, for free, in around 2 minutes.
+
+[](.)
+
 * [`dev-setup`](https://github.com/donnemartin/dev-setup) macOS development environment setup.
 
 ---
