@@ -30,8 +30,9 @@
 
 ## Dependencies
 
-All the dependencies should be available through a package manager:
-`bash` `coreutils` `gzip` `unzip` `wget` `xxd` `dmg2img`  `virtualbox`
+`bash` `coreutils` `gzip` *`unzip`* *`wget`* *`xxd`*
+`dmg2img`
+`virtualbox`
 
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) ≥ 6.1.6, though versions as low as 5.2 may work.
 * GNU `Bash` ≥ 4.3, on Windows run through [Cygwin](https://cygwin.com/install.html) or WSL - see [NEM](https://github.com/myspaghetti/macos-virtualbox/blob/master/README.md#virtualbox-native-execution-manager-nem)
