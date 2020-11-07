@@ -25,19 +25,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent/ohmyzsh/ohmyzsh/master/tools/i
 
 # Zsh syntax highlighting
 brew install zsh-syntax-highlighting
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 # NodeJS
 # brew install node  # Latest
-brew install node@12 # LTS
+brew install node@14 # LTS
 
 # Add node to path
-echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/opt/node@14/bin:$PATH"' >> ~/.zshrc
 
 # TODO: Ensure node installed successfully
 
 # Update NPM
 npm install --global npm
-rm -rf /usr/local/opt/node@12/lib/node_modules/npm
+rm -rf /usr/local/opt/node@14/lib/node_modules/npm
 
 # NPM Global Packages
 npm install --global \
@@ -66,9 +67,9 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 
 # Ruby
-rbenv install 2.7.1
+rbenv install 2.7.2
 rbenv rehash
-rbenv global 2.7.1 system
+rbenv global 2.7.2 system
 
 # Ruby Gems
 sudo gem update --system
@@ -82,7 +83,7 @@ cocoapods
 brew install wget
 
 # Hub
-brew install hub
+# brew install hub
 
 # Yarn
 brew install yarn
