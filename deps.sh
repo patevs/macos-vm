@@ -42,20 +42,16 @@ rm -rf /usr/local/opt/node@14/lib/node_modules/npm
 
 # NPM Global Packages
 npm install --global \
-add-gitignore \
 check-it-out \
 diff-so-fancy \
 g3l \
 gtop \
-gitmoji-cli \
 npm-check \
 npm-check-updates \
 ntl \
-licensed \
 neovim \
 open-cli \
 emus \
-typesync \
 react-native-cli \
 pure-prompt
 
