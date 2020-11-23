@@ -8,6 +8,18 @@ echo '' # new line
 
 # --------------------------------------------------------------------------------------------------- #
 
+mkdir ~/code
+cd ~/code
+
+# Dracula Theme
+
+git clone https://github.com/dracula/terminal-app.git
+git clone https://github.com/dracula/iterm.git
+
+# TODO: Install themes automatically
+
+# --------------------------------------------------------------------------------------------------- #
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
