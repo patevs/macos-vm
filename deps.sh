@@ -20,6 +20,9 @@ git clone https://github.com/dracula/iterm.git
 
 # --------------------------------------------------------------------------------------------------- #
 
+# XCode
+xcode-select --install
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
