@@ -1,6 +1,6 @@
 {
   "name": "macos-vm",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Instructions and script to help you create a VirtualBox VM running MacOS",
   "author": "PatEvs",
   "license": "MIT",
