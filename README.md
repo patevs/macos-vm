@@ -26,6 +26,10 @@
 
 * [`dev-setup`](https://github.com/donnemartin/dev-setup) macOS development environment setup.
 
+[](.)
+
+* [`gibMacOS`](https://github.com/corpnewt/gibMacOS) Py2/py3 script that can download macOS components direct from Apple.
+
 ---
 
 ## Dependencies
