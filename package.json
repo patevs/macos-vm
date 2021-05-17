@@ -1,6 +1,6 @@
 {
   "name": "macos-vm",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Instructions and script to help you create a VirtualBox VM running MacOS",
   "author": "PatEvs",
   "license": "MIT",
@@ -27,8 +27,14 @@
       "gitmoji"
     ],
     "rules": {
-      "subject-empty": [0, "never"],
-      "type-empty": [0, "never"]
+      "subject-empty": [
+        0,
+        "never"
+      ],
+      "type-empty": [
+        0,
+        "never"
+      ]
     }
   },
   "husky": {
