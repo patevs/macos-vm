@@ -13,6 +13,7 @@
     "npm": ">=6.8.0"
   },
   "scripts": {
+    "updates": "npx ncu",
     "release": "np"
   },
   "devDependencies": {
