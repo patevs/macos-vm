@@ -17,7 +17,7 @@
     "release": "np"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^12.1.4",
     "commitlint-config-gitmoji": "^1.0.1",
     "husky": "^4.3.6",
     "np": "^7.5.0"
