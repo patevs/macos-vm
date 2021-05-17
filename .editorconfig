@@ -16,12 +16,4 @@ tab_width = 2
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-# Markdown
-[*.md]
-max_line_length = 80
-
-# JSON
-[*.json]
-insert_final_newline = false
-
 # EOF #
