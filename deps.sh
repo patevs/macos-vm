@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# ------ #
-# run.sh #
-# ------ #
+# run.sh
+# ------
 
 echo '' # new line
 
