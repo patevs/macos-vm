@@ -64,6 +64,7 @@ VBoxManage modifyvm "macOS" --cpu-profile "Intel Xeon X5482 3.20GHz"
 
 ```md
 .
+├── .husky           # Husky configuration
 ├── .editorconfig    # Editor configuration
 ├── .gitignore       # Git ignore configuration
 ├── .np-config.json  # NPM publish (np) configuration
