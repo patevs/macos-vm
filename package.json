@@ -9,7 +9,7 @@
     "url": "git+https://github.com/patevs/macos-vm.git"
   },
   "engines": {
-    "node": ">=10.21.0",
+    "node": ">=14",
     "npm": ">=6.8.0"
   },
   "scripts": {
