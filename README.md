@@ -65,13 +65,14 @@ VBoxManage modifyvm "macOS" --cpu-profile "Intel Xeon X5482 3.20GHz"
 ```md
 .
 ├── .husky           # Husky configuration
+├── .commitlintrc    # Commitlint configuration
 ├── .editorconfig    # Editor configuration
 ├── .gitignore       # Git ignore configuration
 ├── .np-config.json  # NPM publish (np) configuration
-├── LICENSE          # Project license
+├── LICENSE          # Project LICENSE
 ├── package.json     # NPM package configuration
 ├── README.md        # Project README
-└── run.sh           # Run script
+└── run.sh           # Main run script
 ```
 
 ---
