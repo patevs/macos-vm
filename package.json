@@ -21,20 +21,5 @@
     "@commitlint/cli": "^17.3.0",
     "commitlint-config-gitmoji": "^2.2.6",
     "husky": "^8.0.2"
-  },
-  "commitlint": {
-    "extends": [
-      "gitmoji"
-    ],
-    "rules": {
-      "subject-empty": [
-        0,
-        "never"
-      ],
-      "type-empty": [
-        0,
-        "never"
-      ]
-    }
   }
 }
