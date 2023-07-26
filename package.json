@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
-    "commitlint-config-gitmoji": "^2.2.6",
+    "commitlint-config-gitmoji": "^2.3.1",
     "husky": "^8.0.3"
   }
 }
